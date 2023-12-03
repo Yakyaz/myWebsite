@@ -1,0 +1,7 @@
+export default function Home() {
+  return (
+    <main>
+      <h1 className="text-black-900">Hello World</h1>
+    </main>
+  );
+}

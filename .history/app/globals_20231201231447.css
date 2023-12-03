@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+}
+
+html,
+body {
+  height: 100%;
+  /* Setze die Höhe auf 100% für den gesamten Bildschirm */
+  margin: 0;
+  /* Entferne den Standardabstand des Body-Elements */
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: white;
+
+}
