@@ -4,7 +4,6 @@ import { mdiGithub, mdiInstagram, mdiLinkedin, mdiReddit } from "@mdi/js";
 import Image from "next/image";
 import pb from "public/pb.png";
 import Spotify from "@/components/spotify";
-export const revalidate = 20;
 
 function Home() {
   return (
@@ -40,19 +39,19 @@ function Home() {
             </a>
             <a
               href="https://www.instagram.com/yakupwrld_/"
-              className="text-gray-100 hover:text-zinc-800 "
+              className="text-gray-100 hover:text-gray-800 "
             >
               <Icon path={mdiInstagram} size={2} />
             </a>
             <a
               href="https://www.linkedin.com/in/yakup-yazir-aa9a61247/"
-              className="text-gray-100 hover:text-zinc-800 "
+              className="text-gray-100 hover:text-gray-800 "
             >
               <Icon path={mdiLinkedin} size={2} />
             </a>
             <a
               href="https://www.reddit.com/user/It3chii"
-              className="text-gray-100 hover:text-zinc-800 "
+              className="text-gray-100 hover:text-gray-800 "
             >
               <Icon path={mdiReddit} size={2} />
             </a>

@@ -4,7 +4,6 @@ import { mdiGithub, mdiInstagram, mdiLinkedin, mdiReddit } from "@mdi/js";
 import Image from "next/image";
 import pb from "public/pb.png";
 import Spotify from "@/components/spotify";
-export const revalidate = 20;
 
 function Home() {
   return (

@@ -20,7 +20,7 @@ const Spotify = async () => {
           src={song.album?.image || "https://cdn.albert.lol/964d7fc6"}
         />
         <p className="text-sm ml-6">
-          <span>{song.title}</span>
+          <p>{song.title}</p>
         </p>
       </div>
     </div>

@@ -3,7 +3,6 @@ import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/navbar";
 import { Theme } from "@radix-ui/themes";
-export const revalidate = 20;
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -19,8 +18,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${montserrat.className} min-w-80`}>
-        <div className=" text-gray-300 bg-zinc-700">
+      <body className={montserrat.className}>
+        <div className=" text-gray-300">
           <Navbar />
           {children}
         </div>

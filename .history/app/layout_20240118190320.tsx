@@ -3,7 +3,6 @@ import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Navbar from "../components/navbar";
 import { Theme } from "@radix-ui/themes";
-export const revalidate = 20;
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 

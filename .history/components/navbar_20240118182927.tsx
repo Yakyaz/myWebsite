@@ -3,7 +3,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <ul className="flex flex-row justify-between items-center p-2 pr-12 pl-12  bg-zinc-600 shadow-xl ">
+    <ul className="flex flex-row justify-between items-center p-2 pr-12 pl-12 border-b border-black shadow-xl bg-black">
       <li>
         <Link className=" " href="/home">
           home

@@ -20,11 +20,9 @@ function Home() {
         </div>
 
         <div className="w-full h-1/3 flex items-start justify-center overflow-hidden flex-shrink ">
-          <span className="w-full md:w-1/2 md:text-center">
-            <p>Abitur</p>
-            <p>get a cs student</p>
-            <p>get a dev job</p>
-            <p>die </p>
+          <span className="w-full md:w-1/12 md:w-full">
+            Uni la askljflksadjf akjdfk asjfk kajsdkfjaks kajsfkjasdkf ksadfk
+            ,snfmsnam,df msand,mfn asd masndf masmfm,n asnmdf,m
           </span>
         </div>
       </div>

@@ -13,14 +13,14 @@ const Spotify = async () => {
   if (!song) return <p></p>;
 
   return (
-    <div className=" md:pl-10 md:flex-none md:justify-start md:items-start flex justify-center items-center">
-      <div className=" justify-center  flex flex-row items-center mt-2  bg-gray-300 h-10 md:w-60 md:h-24 p-2 bg-opacity-20  shadow-xl border rounded-3xl border-gray-600">
+    <div className=" md:ml-10 sm:flex sm:justify-center sm:items-center">
+      <div className=" justify-center  flex flex-row items-center mt-2  bg-gray-300 w-60 p-2 bg-opacity-20  shadow-xl border rounded-3xl border-gray-600">
         <img
-          className="h-9 w-9 md:w-20  md:h-20 rounded-full border border-gray-500 "
+          className="w-20 h-20 rounded-full border border-gray-500 "
           src={song.album?.image || "https://cdn.albert.lol/964d7fc6"}
         />
         <p className="text-sm ml-6">
-          <span>{song.title}</span>
+          <p>{song.title}</p>
         </p>
       </div>
     </div>
