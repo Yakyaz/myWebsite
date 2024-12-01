@@ -33,7 +33,7 @@ function Home() {
           </div>
           <div className="flex flex-row space-x-4 border border-x-0 mt-3 p-3">
             <a
-              href="https://github.com/It3chii  "
+              href="https://github.com/Yakyaz  "
               className="text-gray-100 hover:text-zinc-800 "
             >
               <Icon path={mdiGithub} size={2} />
