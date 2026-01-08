@@ -5,7 +5,7 @@ import Image from "next/image";
 import { motion } from 'framer-motion';
 import { Github, Instagram, Linkedin, Bot, ShieldCheck, Terminal } from 'lucide-react';
 import Dither from './Dither'; 
-import pb from "public/pb1.png"; 
+import pb from "../public/pb1.png";
 
 export default function Hero({ children }: { children: React.ReactNode }) {
   
