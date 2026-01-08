@@ -18,22 +18,22 @@
     "@react-three/postprocessing": "^2.16.0",
     "axios": "^1.6.2",
     "clsx": "^2.1.1",
-    "eslint-config-next": "^16.1.1",
-    "framer-motion": "^12.24.12",
+    "eslint-config-next": "14.2.16",
+    "framer-motion": "^11.0.0",
     "jquery": "^3.7.1",
-    "lucide-react": "^0.562.0",
-    "next": "^16.1.1",
+    "lucide-react": "^0.300.0",
+    "next": "14.2.16",
     "postprocessing": "^6.35.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "sharp": "^0.33.0",
-    "tailwind-merge": "^3.4.0",
+    "tailwind-merge": "^2.2.0",
     "three": "^0.160.0"
   },
   "devDependencies": {
-    "@types/node": "^20.19.27",
-    "@types/react": "^18.3.27",
-    "@types/react-dom": "^18.3.7",
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
     "autoprefixer": "^10.0.1",
     "daisyui": "^4.4.17",
     "postcss": "^8",
@@ -42,7 +42,8 @@
     "typescript": "^5"
   },
   "overrides": {
-    "micromatch": "^4.0.8"
+    "micromatch": "^4.0.8",
+    "react": "$react",
+    "react-dom": "$react-dom"
   }
 }
-
