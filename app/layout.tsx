@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
-import Navbar from "../components/navbar";
+
 import { Theme } from "@radix-ui/themes";
 export const revalidate = 20;
 
@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${montserrat.className} min-w-80`}>
         <div className=" text-gray-300 bg-zinc-700">
-          <Navbar />
+          
           {children}
         </div>
       </body>
