@@ -1,9 +1,9 @@
-import React, { useRef, useMemo, forwardRef, useEffect } from 'react'; // Added useEffect
+import React, { useRef, useMemo, forwardRef, useEffect } from 'react';
 import { Canvas, useFrame, useThree } from '@react-three/fiber';
 import * as THREE from 'three';
-import { EffectComposer, wrapEffect } from '@react-three/postprocessing'; // Added these
-import { Effect } from 'postprocessing'; // Added this
-// Shader Definitionen
+import { EffectComposer, wrapEffect } from '@react-three/postprocessing';
+import { Effect } from 'postprocessing';
+
 const waveVertexShader = `
 precision highp float;
 varying vec2 vUv;
